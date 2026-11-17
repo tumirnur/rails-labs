@@ -1,0 +1,18 @@
+86bc131 Initialize repository
+2417959 hello_app: generate Rails 8.1.4.1 application
+071e782 hello_app: add hello action and root route
+abac784 hello_app: improve the README file
+1df6c70 hello_app: exercise - ¡Hola, mundo!
+47a0e53 hello_app: exercise - goodbye action as root route
+b4b89dc docs: part 1 screenshots and logs
+f1a3861 toy_app: generate Rails application
+c2f1f90 toy_app: add hello action
+095697a toy_app: scaffold Users resource
+9282003 toy_app: route root to users#index
+4c1b6b1 toy_app: scaffold Microposts resource
+0cada02 toy_app: limit micropost length to 140 characters
+7793646 toy_app: user has many microposts
+5fe6c10 docs: console session and routes for toy_app
+aa57eb1 toy_app: exercise - validate micropost content presence
+7dc373e toy_app: exercise - validate user name and email presence
+5b05f8e docs: add lab report
