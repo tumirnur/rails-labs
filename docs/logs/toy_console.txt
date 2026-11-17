@@ -1,0 +1,12 @@
+>> first_user = User.first
+#<User id: 1, name: "Элина Тенишева (гр. 4411)", email: [FILTERED], created_at: "2026-11-17 20:05:40.604067000 +0000", updated_at: "2026-11-17 20:05:40.682470000 +0000">
+>> first_user.microposts
+[#<Micropost id: 1, content: "Мой первый микропост!", user_id: 1, created_at: "2026-11-17 20:05:42.809279000 +0000", updated_at: "2026-11-17 20:05:42.809279000 +0000">, #<Micropost id: 2, content: "Второй микропост: изучаю Ruby on Rails", user_id: 1, created_at: "2026-11-17 20:05:42.864113000 +0000", updated_at: "2026-11-17 20:05:42.864113000 +0000">]
+>> micropost = first_user.microposts.first
+#<Micropost id: 1, content: "Мой первый микропост!", user_id: 1, created_at: "2026-11-17 20:05:42.809279000 +0000", updated_at: "2026-11-17 20:05:42.809279000 +0000">
+>> micropost.user
+#<User id: 1, name: "Элина Тенишева (гр. 4411)", email: [FILTERED], created_at: "2026-11-17 20:05:40.604067000 +0000", updated_at: "2026-11-17 20:05:40.682470000 +0000">
+>> [User.superclass, User.superclass.superclass]
+[ApplicationRecord(abstract), ActiveRecord::Base]
+>> [UsersController.superclass, UsersController.superclass.superclass]
+[ApplicationController, ActionController::Base]
