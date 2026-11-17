@@ -1,0 +1,19 @@
+$ git checkout -b modify-README
+Switched to a new branch 'modify-README'
+$ git branch
+  main
+* modify-README
+$ git status --short
+ M hello_app/README.md
+$ git commit -a -m "hello_app: improve the README file"
+[modify-README abac784] hello_app: improve the README file
+ 1 file changed, 5 insertions(+), 22 deletions(-)
+$ git checkout main
+Switched to branch 'main'
+$ git merge modify-README
+Updating 071e782..abac784
+Fast-forward
+ hello_app/README.md | 27 +++++----------------------
+ 1 file changed, 5 insertions(+), 22 deletions(-)
+$ git branch -d modify-README
+Deleted branch modify-README (was abac784).

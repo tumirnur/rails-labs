@@ -1,0 +1,11 @@
+$ ls hello_app/app/controllers/
+application_controller.rb
+concerns
+$ rm -rf hello_app/app/controllers/
+$ git status --short
+ D hello_app/app/controllers/application_controller.rb
+ D hello_app/app/controllers/concerns/.keep
+$ git checkout -f
+$ ls hello_app/app/controllers/
+application_controller.rb
+concerns
